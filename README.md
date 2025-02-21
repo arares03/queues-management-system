@@ -102,7 +102,7 @@ ShortestTime: Assigns tasks to the queue with the shortest processing time.
 
 4️⃣ Display Results → UI updates in real-time, logs saved to display.txt.
 
-4\. Results & Conclusions
+# 4\. Results & Conclusions
 
 The simulation successfully models real-time queue management.
 
