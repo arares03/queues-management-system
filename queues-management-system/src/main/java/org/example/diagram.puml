@@ -1,0 +1,101 @@
+@startuml
+
+package org.example.model {
+    class Task {
+        - id: int
+        - arrivalTime: int
+        - serviceTime: int
+        - taskWaitTime: int
+        - initServiceTime: int
+        + Task(int id, int arrivalTime, int serviceTime)
+        + setServiceTime(int serviceTime): void
+        + getId(): int
+        + getArrivalTime(): int
+        + getServiceTime(): int
+        + getTaskWaitTime(): int
+        + getInitServiceTime(): int
+    }
+}
+
+package org.example.logic {
+    class Scheduler {
+        - servers: ArrayList<Server>
+        - strategy: StrategyTemplate
+        + Scheduler(int noQueues, SelectionType policy)
+        - setStrategy(SelectionType policy): void
+        + dispatchTask(Task task): void
+        + getServers(): ArrayList<Server>
+        + getNoActiveServers(): int
+    }
+
+    interface StrategyTemplate {
+        + assignTask(ArrayList<Server> servers, Task task): void
+    }
+
+    class ShortestQueue {
+        + assignTask(ArrayList<Server> servers, Task task): void
+    }
+
+    class ShortestTime {
+        + assignTask(ArrayList<Server> servers, Task task): void
+    }
+
+    class SimulationManager implements Runnable {
+        - simulationTime: int
+        - noQueues: int
+        - noClients: int
+        - tasks: LinkedBlockingQueue<Task>
+        - simulationFrame: SimulationFrame
+        - scheduler: Scheduler
+        - selectionType: SelectionType
+        + SimulationManager(SimulationFrame simulationFrame, int noQueues, int noClients, int minArrivalTime, int maxArrivalTime, int minServiceTime, int maxServiceTime, int simulationTime, SelectionType selectionType)
+        + run(): void
+    }
+}
+
+package org.example.gui {
+    class SimulationFrame {
+        - mainPanel: JPanel
+        - clientsField: JTextField
+        - queuesField: JTextField
+        - arrivalTimeField: JTextField
+        - serviceTimeField: JTextField
+        - simulationTimeField: JTextField
+        - shortestTimeRadioButton: JRadioButton
+        - shortestQueueRadioButton: JRadioButton
+        - startButton: JButton
+        - serverStatusPane: JEditorPane
+        + SimulationFrame(String title)
+        + prepareGUI(): void
+        + displayStatus(ArrayList<Server> servers, int currentTime, LinkedBlockingQueue<Task> tasks): void
+        + getClientsCount(): String
+        + getQueuesCount(): String
+        + getArrivalTimeInterval(): String
+        + getServiceTimeInterval(): String
+        + getSimulationTime(): String
+        + getSelectionType(): SelectionType
+    }
+
+    class Controller implements ActionListener {
+        - simulationFrame: SimulationFrame
+        - simulationManager: SimulationManager
+        + Controller(SimulationFrame simulationFrame)
+        + actionPerformed(ActionEvent e): void
+    }
+}
+
+package org.example.model {
+    class Server implements Runnable {
+        - tasks: LinkedBlockingQueue<Task>
+        - waitingTime: AtomicInteger
+        - barrier: CyclicBarrier
+        + Server(CyclicBarrier barrier)
+        + getTasks(): LinkedBlockingQueue<Task>
+        + getWaitingTime(): AtomicInteger
+        + run(): void
+        + addTask(Task task): void
+        + isActive(): boolean
+    }
+}
+
+@enduml

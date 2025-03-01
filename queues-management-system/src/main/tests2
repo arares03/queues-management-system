@@ -1,0 +1,717 @@
+Generated tasks:
+(1,2,6)
+(2,3,4)
+(3,4,6)
+(4,4,5)
+(5,4,2)
+(6,4,4)
+(7,5,6)
+(8,7,7)
+(9,7,2)
+(10,11,3)
+(11,11,2)
+(12,11,1)
+(13,13,2)
+(14,13,5)
+(15,13,4)
+(16,13,2)
+(17,13,1)
+(18,14,7)
+(19,14,7)
+(20,15,4)
+(21,15,5)
+(22,15,6)
+(23,18,2)
+(24,20,7)
+(25,21,5)
+(26,21,4)
+(27,22,1)
+(28,22,2)
+(29,23,6)
+(30,23,6)
+(31,24,6)
+(32,24,4)
+(33,24,7)
+(34,25,3)
+(35,26,2)
+(36,28,6)
+(37,29,7)
+(38,32,7)
+(39,32,7)
+(40,33,5)
+(41,33,6)
+(42,34,5)
+(43,35,4)
+(44,35,5)
+(45,35,3)
+(46,36,4)
+(47,36,1)
+(48,37,6)
+(49,38,2)
+(50,39,2)
+
+Current time = 0
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 1
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 2
+	Server 1: Server Task Queue:
+(1,2,6)
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 3
+	Server 1: Server Task Queue:
+(1,2,5)
+	Server 2: Server Task Queue:
+(2,3,4)
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 4
+	Server 1: Server Task Queue:
+(1,2,4)  (6,4,4)
+	Server 2: Server Task Queue:
+(2,3,3)
+	Server 3: Server Task Queue:
+(3,4,6)
+	Server 4: Server Task Queue:
+(4,4,5)
+	Server 5: Server Task Queue:
+(5,4,2)
+Current time = 5
+	Server 1: Server Task Queue:
+(1,2,3)  (6,4,4)
+	Server 2: Server Task Queue:
+(2,3,2)  (7,5,6)
+	Server 3: Server Task Queue:
+(3,4,5)
+	Server 4: Server Task Queue:
+(4,4,4)
+	Server 5: Server Task Queue:
+(5,4,1)
+Current time = 6
+	Server 1: Server Task Queue:
+(1,2,2)  (6,4,4)
+	Server 2: Server Task Queue:
+(2,3,1)  (7,5,6)
+	Server 3: Server Task Queue:
+(3,4,4)
+	Server 4: Server Task Queue:
+(4,4,3)
+	Server 5: Server Task Queue:
+
+Current time = 7
+	Server 1: Server Task Queue:
+(1,2,1)  (6,4,4)
+	Server 2: Server Task Queue:
+(7,5,6)  (9,7,2)
+	Server 3: Server Task Queue:
+(3,4,3)
+	Server 4: Server Task Queue:
+(4,4,2)
+	Server 5: Server Task Queue:
+(8,7,7)
+Current time = 8
+	Server 1: Server Task Queue:
+(6,4,4)
+	Server 2: Server Task Queue:
+(7,5,5)  (9,7,2)
+	Server 3: Server Task Queue:
+(3,4,2)
+	Server 4: Server Task Queue:
+(4,4,1)
+	Server 5: Server Task Queue:
+(8,7,6)
+Current time = 9
+	Server 1: Server Task Queue:
+(6,4,3)
+	Server 2: Server Task Queue:
+(7,5,4)  (9,7,2)
+	Server 3: Server Task Queue:
+(3,4,1)
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+(8,7,5)
+Current time = 10
+	Server 1: Server Task Queue:
+(6,4,2)
+	Server 2: Server Task Queue:
+(7,5,3)  (9,7,2)
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+(8,7,4)
+Current time = 11
+	Server 1: Server Task Queue:
+(6,4,1)  (12,11,1)
+	Server 2: Server Task Queue:
+(7,5,2)  (9,7,2)
+	Server 3: Server Task Queue:
+(10,11,3)
+	Server 4: Server Task Queue:
+(11,11,2)
+	Server 5: Server Task Queue:
+(8,7,3)
+Current time = 12
+	Server 1: Server Task Queue:
+(12,11,1)
+	Server 2: Server Task Queue:
+(7,5,1)  (9,7,2)
+	Server 3: Server Task Queue:
+(10,11,2)
+	Server 4: Server Task Queue:
+(11,11,1)
+	Server 5: Server Task Queue:
+(8,7,2)
+Current time = 13
+	Server 1: Server Task Queue:
+(13,13,2)  (15,13,4)
+	Server 2: Server Task Queue:
+(9,7,2)  (16,13,2)
+	Server 3: Server Task Queue:
+(10,11,1)  (17,13,1)
+	Server 4: Server Task Queue:
+(14,13,5)
+	Server 5: Server Task Queue:
+(8,7,1)
+Current time = 14
+	Server 1: Server Task Queue:
+(13,13,1)  (15,13,4)
+	Server 2: Server Task Queue:
+(9,7,1)  (16,13,2)
+	Server 3: Server Task Queue:
+(17,13,1)  (19,14,7)
+	Server 4: Server Task Queue:
+(14,13,4)
+	Server 5: Server Task Queue:
+(18,14,7)
+Current time = 15
+	Server 1: Server Task Queue:
+(15,13,4)  (20,15,4)
+	Server 2: Server Task Queue:
+(16,13,2)  (21,15,5)
+	Server 3: Server Task Queue:
+(19,14,7)  (22,15,6)
+	Server 4: Server Task Queue:
+(14,13,3)
+	Server 5: Server Task Queue:
+(18,14,6)
+Current time = 16
+	Server 1: Server Task Queue:
+(15,13,3)  (20,15,4)
+	Server 2: Server Task Queue:
+(16,13,1)  (21,15,5)
+	Server 3: Server Task Queue:
+(19,14,6)  (22,15,6)
+	Server 4: Server Task Queue:
+(14,13,2)
+	Server 5: Server Task Queue:
+(18,14,5)
+Current time = 17
+	Server 1: Server Task Queue:
+(15,13,2)  (20,15,4)
+	Server 2: Server Task Queue:
+(21,15,5)
+	Server 3: Server Task Queue:
+(19,14,5)  (22,15,6)
+	Server 4: Server Task Queue:
+(14,13,1)
+	Server 5: Server Task Queue:
+(18,14,4)
+Current time = 18
+	Server 1: Server Task Queue:
+(15,13,1)  (20,15,4)
+	Server 2: Server Task Queue:
+(21,15,4)
+	Server 3: Server Task Queue:
+(19,14,4)  (22,15,6)
+	Server 4: Server Task Queue:
+(23,18,2)
+	Server 5: Server Task Queue:
+(18,14,3)
+Current time = 19
+	Server 1: Server Task Queue:
+(20,15,4)
+	Server 2: Server Task Queue:
+(21,15,3)
+	Server 3: Server Task Queue:
+(19,14,3)  (22,15,6)
+	Server 4: Server Task Queue:
+(23,18,1)
+	Server 5: Server Task Queue:
+(18,14,2)
+Current time = 20
+	Server 1: Server Task Queue:
+(20,15,3)
+	Server 2: Server Task Queue:
+(21,15,2)
+	Server 3: Server Task Queue:
+(19,14,2)  (22,15,6)
+	Server 4: Server Task Queue:
+(24,20,7)
+	Server 5: Server Task Queue:
+(18,14,1)
+Current time = 21
+	Server 1: Server Task Queue:
+(20,15,2)  (26,21,4)
+	Server 2: Server Task Queue:
+(21,15,1)
+	Server 3: Server Task Queue:
+(19,14,1)  (22,15,6)
+	Server 4: Server Task Queue:
+(24,20,6)
+	Server 5: Server Task Queue:
+(25,21,5)
+Current time = 22
+	Server 1: Server Task Queue:
+(20,15,1)  (26,21,4)
+	Server 2: Server Task Queue:
+(27,22,1)  (28,22,2)
+	Server 3: Server Task Queue:
+(22,15,6)
+	Server 4: Server Task Queue:
+(24,20,5)
+	Server 5: Server Task Queue:
+(25,21,4)
+Current time = 23
+	Server 1: Server Task Queue:
+(26,21,4)  (29,23,6)
+	Server 2: Server Task Queue:
+(28,22,2)  (30,23,6)
+	Server 3: Server Task Queue:
+(22,15,5)
+	Server 4: Server Task Queue:
+(24,20,4)
+	Server 5: Server Task Queue:
+(25,21,3)
+Current time = 24
+	Server 1: Server Task Queue:
+(26,21,3)  (29,23,6)
+	Server 2: Server Task Queue:
+(28,22,1)  (30,23,6)
+	Server 3: Server Task Queue:
+(22,15,4)  (31,24,6)
+	Server 4: Server Task Queue:
+(24,20,3)  (32,24,4)
+	Server 5: Server Task Queue:
+(25,21,2)  (33,24,7)
+Current time = 25
+	Server 1: Server Task Queue:
+(26,21,2)  (29,23,6)
+	Server 2: Server Task Queue:
+(30,23,6)  (34,25,3)
+	Server 3: Server Task Queue:
+(22,15,3)  (31,24,6)
+	Server 4: Server Task Queue:
+(24,20,2)  (32,24,4)
+	Server 5: Server Task Queue:
+(25,21,1)  (33,24,7)
+Current time = 26
+	Server 1: Server Task Queue:
+(26,21,1)  (29,23,6)
+	Server 2: Server Task Queue:
+(30,23,5)  (34,25,3)
+	Server 3: Server Task Queue:
+(22,15,2)  (31,24,6)
+	Server 4: Server Task Queue:
+(24,20,1)  (32,24,4)
+	Server 5: Server Task Queue:
+(33,24,7)  (35,26,2)
+Current time = 27
+	Server 1: Server Task Queue:
+(29,23,6)
+	Server 2: Server Task Queue:
+(30,23,4)  (34,25,3)
+	Server 3: Server Task Queue:
+(22,15,1)  (31,24,6)
+	Server 4: Server Task Queue:
+(32,24,4)
+	Server 5: Server Task Queue:
+(33,24,6)  (35,26,2)
+Current time = 28
+	Server 1: Server Task Queue:
+(29,23,5)  (36,28,6)
+	Server 2: Server Task Queue:
+(30,23,3)  (34,25,3)
+	Server 3: Server Task Queue:
+(31,24,6)
+	Server 4: Server Task Queue:
+(32,24,3)
+	Server 5: Server Task Queue:
+(33,24,5)  (35,26,2)
+Current time = 29
+	Server 1: Server Task Queue:
+(29,23,4)  (36,28,6)
+	Server 2: Server Task Queue:
+(30,23,2)  (34,25,3)
+	Server 3: Server Task Queue:
+(31,24,5)  (37,29,7)
+	Server 4: Server Task Queue:
+(32,24,2)
+	Server 5: Server Task Queue:
+(33,24,4)  (35,26,2)
+Current time = 30
+	Server 1: Server Task Queue:
+(29,23,3)  (36,28,6)
+	Server 2: Server Task Queue:
+(30,23,1)  (34,25,3)
+	Server 3: Server Task Queue:
+(31,24,4)  (37,29,7)
+	Server 4: Server Task Queue:
+(32,24,1)
+	Server 5: Server Task Queue:
+(33,24,3)  (35,26,2)
+Current time = 31
+	Server 1: Server Task Queue:
+(29,23,2)  (36,28,6)
+	Server 2: Server Task Queue:
+(34,25,3)
+	Server 3: Server Task Queue:
+(31,24,3)  (37,29,7)
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+(33,24,2)  (35,26,2)
+Current time = 32
+	Server 1: Server Task Queue:
+(29,23,1)  (36,28,6)
+	Server 2: Server Task Queue:
+(34,25,2)  (39,32,7)
+	Server 3: Server Task Queue:
+(31,24,2)  (37,29,7)
+	Server 4: Server Task Queue:
+(38,32,7)
+	Server 5: Server Task Queue:
+(33,24,1)  (35,26,2)
+Current time = 33
+	Server 1: Server Task Queue:
+(36,28,6)  (40,33,5)
+	Server 2: Server Task Queue:
+(34,25,1)  (39,32,7)
+	Server 3: Server Task Queue:
+(31,24,1)  (37,29,7)
+	Server 4: Server Task Queue:
+(38,32,6)  (41,33,6)
+	Server 5: Server Task Queue:
+(35,26,2)
+Current time = 34
+	Server 1: Server Task Queue:
+(36,28,5)  (40,33,5)
+	Server 2: Server Task Queue:
+(39,32,7)  (42,34,5)
+	Server 3: Server Task Queue:
+(37,29,7)
+	Server 4: Server Task Queue:
+(38,32,5)  (41,33,6)
+	Server 5: Server Task Queue:
+(35,26,1)
+Current time = 35
+	Server 1: Server Task Queue:
+(36,28,4)  (40,33,5)
+	Server 2: Server Task Queue:
+(39,32,6)  (42,34,5)
+	Server 3: Server Task Queue:
+(37,29,6)  (44,35,5)
+	Server 4: Server Task Queue:
+(38,32,4)  (41,33,6)
+	Server 5: Server Task Queue:
+(43,35,4)  (45,35,3)
+Current time = 36
+	Server 1: Server Task Queue:
+(36,28,3)  (40,33,5)  (46,36,4)
+	Server 2: Server Task Queue:
+(39,32,5)  (42,34,5)  (47,36,1)
+	Server 3: Server Task Queue:
+(37,29,5)  (44,35,5)
+	Server 4: Server Task Queue:
+(38,32,3)  (41,33,6)
+	Server 5: Server Task Queue:
+(43,35,3)  (45,35,3)
+Current time = 37
+	Server 1: Server Task Queue:
+(36,28,2)  (40,33,5)  (46,36,4)
+	Server 2: Server Task Queue:
+(39,32,4)  (42,34,5)  (47,36,1)
+	Server 3: Server Task Queue:
+(37,29,4)  (44,35,5)  (48,37,6)
+	Server 4: Server Task Queue:
+(38,32,2)  (41,33,6)
+	Server 5: Server Task Queue:
+(43,35,2)  (45,35,3)
+Current time = 38
+	Server 1: Server Task Queue:
+(36,28,1)  (40,33,5)  (46,36,4)
+	Server 2: Server Task Queue:
+(39,32,3)  (42,34,5)  (47,36,1)
+	Server 3: Server Task Queue:
+(37,29,3)  (44,35,5)  (48,37,6)
+	Server 4: Server Task Queue:
+(38,32,1)  (41,33,6)  (49,38,2)
+	Server 5: Server Task Queue:
+(43,35,1)  (45,35,3)
+Current time = 39
+	Server 1: Server Task Queue:
+(40,33,5)  (46,36,4)
+	Server 2: Server Task Queue:
+(39,32,2)  (42,34,5)  (47,36,1)
+	Server 3: Server Task Queue:
+(37,29,2)  (44,35,5)  (48,37,6)
+	Server 4: Server Task Queue:
+(41,33,6)  (49,38,2)
+	Server 5: Server Task Queue:
+(45,35,3)  (50,39,2)
+Current time = 40
+	Server 1: Server Task Queue:
+(40,33,4)  (46,36,4)
+	Server 2: Server Task Queue:
+(39,32,1)  (42,34,5)  (47,36,1)
+	Server 3: Server Task Queue:
+(37,29,1)  (44,35,5)  (48,37,6)
+	Server 4: Server Task Queue:
+(41,33,5)  (49,38,2)
+	Server 5: Server Task Queue:
+(45,35,2)  (50,39,2)
+Current time = 41
+	Server 1: Server Task Queue:
+(40,33,3)  (46,36,4)
+	Server 2: Server Task Queue:
+(42,34,5)  (47,36,1)
+	Server 3: Server Task Queue:
+(44,35,5)  (48,37,6)
+	Server 4: Server Task Queue:
+(41,33,4)  (49,38,2)
+	Server 5: Server Task Queue:
+(45,35,1)  (50,39,2)
+Current time = 42
+	Server 1: Server Task Queue:
+(40,33,2)  (46,36,4)
+	Server 2: Server Task Queue:
+(42,34,4)  (47,36,1)
+	Server 3: Server Task Queue:
+(44,35,4)  (48,37,6)
+	Server 4: Server Task Queue:
+(41,33,3)  (49,38,2)
+	Server 5: Server Task Queue:
+(50,39,2)
+Current time = 43
+	Server 1: Server Task Queue:
+(40,33,1)  (46,36,4)
+	Server 2: Server Task Queue:
+(42,34,3)  (47,36,1)
+	Server 3: Server Task Queue:
+(44,35,3)  (48,37,6)
+	Server 4: Server Task Queue:
+(41,33,2)  (49,38,2)
+	Server 5: Server Task Queue:
+(50,39,1)
+Current time = 44
+	Server 1: Server Task Queue:
+(46,36,4)
+	Server 2: Server Task Queue:
+(42,34,2)  (47,36,1)
+	Server 3: Server Task Queue:
+(44,35,2)  (48,37,6)
+	Server 4: Server Task Queue:
+(41,33,1)  (49,38,2)
+	Server 5: Server Task Queue:
+
+Current time = 45
+	Server 1: Server Task Queue:
+(46,36,3)
+	Server 2: Server Task Queue:
+(42,34,1)  (47,36,1)
+	Server 3: Server Task Queue:
+(44,35,1)  (48,37,6)
+	Server 4: Server Task Queue:
+(49,38,2)
+	Server 5: Server Task Queue:
+
+Current time = 46
+	Server 1: Server Task Queue:
+(46,36,2)
+	Server 2: Server Task Queue:
+(47,36,1)
+	Server 3: Server Task Queue:
+(48,37,6)
+	Server 4: Server Task Queue:
+(49,38,1)
+	Server 5: Server Task Queue:
+
+Current time = 47
+	Server 1: Server Task Queue:
+(46,36,1)
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+(48,37,5)
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 48
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+(48,37,4)
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 49
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+(48,37,3)
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 50
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+(48,37,2)
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 51
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+(48,37,1)
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 52
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 53
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 54
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 55
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 56
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 57
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 58
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+Current time = 59
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+	Server 3: Server Task Queue:
+
+	Server 4: Server Task Queue:
+
+	Server 5: Server Task Queue:
+
+
+Average waiting time: 2.82 seconds
+
+Average service time: 4.32 seconds
+Peak hour: 5

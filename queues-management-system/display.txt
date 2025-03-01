@@ -1,0 +1,51 @@
+Generated tasks:
+(1,1,2)
+(2,1,2)
+(3,1,2)
+(4,1,2)
+
+Current time = 0
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+Current time = 1
+	Server 1: Server Task Queue:
+(1,1,2)  (3,1,2)  
+	Server 2: Server Task Queue:
+(2,1,2)  (4,1,2)  
+Current time = 2
+	Server 1: Server Task Queue:
+(1,1,1)  (3,1,2)  
+	Server 2: Server Task Queue:
+(2,1,1)  (4,1,2)  
+Current time = 3
+	Server 1: Server Task Queue:
+(3,1,2)  
+	Server 2: Server Task Queue:
+(4,1,2)  
+Current time = 4
+	Server 1: Server Task Queue:
+(3,1,1)  
+	Server 2: Server Task Queue:
+(4,1,1)  
+Current time = 5
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+Current time = 6
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+Current time = 7
+	Server 1: Server Task Queue:
+
+	Server 2: Server Task Queue:
+
+
+Average waiting time: 1.0 seconds
+
+Average service time: 2.0 seconds
+Peak hour: 2
